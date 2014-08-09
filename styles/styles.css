@@ -1,0 +1,254 @@
+/*----------------------------------------------------------------------------------*/
+/*------------------------------RESET DEFAULT STYLES--------------------------------*/
+/*----------------------------------------------------------------------------------*/
+html,body                       { width:100%; height:100%; }
+body                            { padding:0; margin:0; font:12px Tahoma, sans-serif; background:#fff; color:#000; }
+div,p,a,span,em,strong,img,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,td,tr,form,fieldset,label,select,checkbox,input,textarea {
+	padding:0;
+	margin:0;
+	outline:none;
+	list-style:none;
+}
+select, input, textarea        { font-size:12px; vertical-align:middle; }
+textarea                       { vertical-align:top; }
+:focus                         { outline:none; }
+input[type=submit]             { cursor:pointer; }
+img, fieldset                  { border:0; }
+table                          { border-collapse:collapse; border-spacing:0; }
+a:link, a:visited              { font:12px Tahoma, sans-serif; color:#000; text-decoration:underline; }
+a:hover                        { text-decoration:none; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------DEFAULT CLASSES------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.float-r           	           { float:right !important; }
+.float-l                       { float:left !important; }
+.no-float                      { float:none !important; }
+.no-border                     { border:0 !important; }
+.no-bg                         { background:none !important; }
+.no-margin                     { margin:0 !important; }
+.no-padding                    { padding:0 !important; }
+.no-display                    { display:none !important; }
+.display                       { display:block !important; }
+.inline                        { display:inline !important; }
+.overflow                      { overflow:hidden !important; }
+.align-r                       { text-align:right !important; }
+.align-l                       { text-align:left !important; }
+.align-c                       { text-align:center !important; }
+.clear                         { clear:both; }
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------WRAPPER--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.wrapper {
+    overflow: hidden;
+    margin: 0 auto;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------HEADER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.header {
+    height: 108px;
+    background:linear-gradient(to bottom,#E2E2E2 67%, #9AB5C1 100%) no-repeat;
+
+}
+
+.header h1{
+    margin: 0px 0px 18px 300px ;
+    padding-top: 18px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------NAV------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+.nav-a{
+    margin-left: 551px;
+}
+.nav-a li {
+    float: left;
+    position: relative;
+    bottom: 70px;
+
+    display: inline-block;
+}
+
+.nav-b {
+    margin-left: 825px;
+}
+.nav-b li {
+    margin-right: 22px;
+    display: inline;
+    position: relative;
+    bottom:62px;
+    float: left;
+}
+
+.nav-b a{
+    font: 14px "Myriad Pro", sans-serif;
+    text-decoration: none;
+    color: #396375;
+    font-weight: bold;
+}
+.nav-b a:hover {
+    padding-bottom: 85px;
+    color:#E11D5C;
+    background: url(../images/hover.png) no-repeat;
+    background-position:center;
+
+}
+
+li.fb a {
+    background: url(../images/fb.png);
+    padding:0px 24px 10px 0px;
+}
+
+li.vk a {
+    background: url(../images/vk.png);
+    margin-left: 8px;
+    padding:0px 24px 10px 0px;
+}
+
+li.tw a {
+    background: url(../images/tw.png);
+    margin-left: 8px;
+    padding:0px 24px 10px 0px;
+}
+li.yt a {
+    background: url(../images/yt.png);
+    margin-left: 8px;
+    padding:0px 24px 10px 0px;
+}
+li.vv a {
+    background: url(../images/vv.png);
+    margin-left: 8px;
+    padding:0px 24px 10px 0px;
+}
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------CONTENT--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.content {
+    width: 889px;
+    height: 844px;
+    padding-left: 300px;
+
+}
+
+
+.content h1{
+    font: 55px "Myriad Pro", sans-serif;
+    font-weight: normal;
+    color:#4B7589;
+    border-bottom: 1px solid #4B7589;
+    padding-bottom: 11px;
+}
+
+.content li h3 {
+    font: 26px "Myriad Pro", sans-serif;
+    color: #E92777;
+    width: 100px;
+    text-align: right;
+    line-height: 27px;
+    float:left;
+    margin: 74px 0 0 61px; }
+.content li p {
+    font: 15px 'Arial', sans-serif;
+    color: #4B7589;
+    width: 445px;
+    line-height: 20px;
+    float: right;
+    margin-top:64px;
+    margin-right: 25px;
+
+}
+.content li img {
+    float: left;
+    margin-top: 28px;
+    position: relative;
+    right:13px;
+}
+
+.content li strong{
+    font: 12px "Arial", sans-serif;
+    color: #F2753D;
+    display: inline-block;
+    float: left;
+    position: relative;
+    right: 36px;
+    top: 134px;
+}
+
+
+.content li:nth-child(even) h3 {
+    width: 100px;
+    float: right;
+   position: relative;
+    top: 19px;
+    right: 94px;
+
+}
+
+.content li:nth-child(even) p {
+    float: left;
+    text-align: right;
+    margin-left: 38px;
+    position: relative;
+    bottom:13px;
+}
+
+.content li:nth-child(even) img {
+    float: right;
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+.content li:nth-child(even) strong {
+    float: left;
+    position: relative;
+    left: 288px ;
+   padding-top:18px;
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------SIDEBAR--------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+/*----------------------------------------------------------------------------------*/
+/*-------------------------------------FOOTER---------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+
+.footer {
+
+    width: 889px;
+    padding-left: 300px;
+    font: 11px "Arial", sans-serif;
+    font-weight: bold;
+    margin-top: 37px;
+    margin-bottom: 611px;
+}
+
+.footer ul{
+    border-top:1px solid #4B7589;
+}
+
+.footer li {
+    display: inline;
+    position: relative;
+    top: 16px;
+}
+.footer a{
+    text-decoration: none;
+    color:#396375;
+    font-weight: bold;
+}
+
+.footer a:hover{
+    color: #F85B4E;
+
+}
+
+.footer p{
+    color: #A7C3CF;
+    float: right;
+    margin-top: 3px;
+}
